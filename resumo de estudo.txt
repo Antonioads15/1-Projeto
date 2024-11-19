@@ -1,0 +1,255 @@
+oque é programação ? 
+é a mesma coisa de ensinar o computador a fazer algo que queira .
+
+para ensinar o computador precisa fazer o 
+
+Algoritimo = sequencia de passos , conjunto de regras 
+
+logica de programação = maneira de pensar 
+
+sintaxe = maneira correta de escrever 
+
+java script
+
+É uma linguagem de programação =
+
+interpretada e executada pelos navegadores 
+a maquina tem que ser ensinada a fazer , e isso o java script que faz a maquina entender oque ela vai fazer .
+
+O HTML é a estrutura , o CSS é a beleza e JAVA SCRIPT é a inteligencia .
+
+"JAVA" , não é a mesma coisa que "JAVA SCRIPT".
+
+
+
+INSTRUÇÃO DE SINTAXE 
+
+Toda linguagem é escrita com esses 2 principios .
+
+*instrução (declarações)		
+Ordens ao computador. 
+
+*Sintaxe 
+Maneira correta de escrever.
+
+
+
+Ordens na Pratica 
+
+
+alert("Fala, Dev!") Vai Aparecer para voce = Fala, Dev!
+
+alert((10 * 100) + "abraços") Vai aparecer para voce = 1000 abraços 
+
+
+Isso aparece porque voce fez uma orden para a maquina fazer o calculo de  10 x 100 que o resultado é 1.000 .
+
+
+
+
+Plataforma online para executar JavaSript 
+
+Fronteditor.dev
+codepen.io
+
+
+
+As Variaveis são uma caixinha para guardar alguns Dados , algumas informações que podem ser
+
+textos, números, booleanos (Valores logicos : verdadeiro ou falso ), ou dados mais Estruturados.
+
+
+A Variavel pode ser declarada 
+então usa uma palavra reservada que é "let".
+ 
+Nome da variavel "boasVindas" , lembrando que existe algumas regras 
+igual em "boas" tem que ser letra minuscula e não pode dar espaço e a proxima que é "Vindas" tem que começar com letra maiuscula .
+
+O Sinal de " = " é uma atribuição de valor que no caso o valor é "Fala, Dev!" , eu atribuo um valor que é um tipo de DADO , que nesse é chamado de STRING que são ("",'',``) nesse caso voce esta defininco um texto.
+
+
+RESULTADO :
+
+lef boasVindas = "Fala, Dev!" 
+alert(boasVindas)
+
+Vai aparecer para voce:
+
+
+ Fala, Dev!
+
+
+Na "let" pode Reatribuir para -
+
+boasVindas = "Fala, Dev! Beleza?" 
+alert(boasVindas)
+
+Vai aparecer para voce :
+
+
+ Fala, Dev! Beleza?
+
+
+Na palavra reservada "let" voce pode reatribuir como disse acima , oque sguinifica que voce pode mudar o valor dela  .
+
+Na palavra reservada "const" que sguinifica "Constante" então ela nao vai Variar igual a de cima , nessa voce não pode reatribuir , 
+oque sguinifica que não pode mudar ou reatribuir o valor dela , é sim ou não , isso é um dado BOOLEAN - " true , false ".
+
+
+EXEMPLO 
+
+
+"aqui estou dizendo que é um serHumano"
+const serHumano = trute                                                     
+
+
+"se eu quiser que ele nao seja mais serHumano eu não posso vai dar erro"
+serHumano = false 
+
+
+
+
+Operadores são os sianis de " = , *, +, -, etc."
+
+
+
+Funções para que serve.
+
+*agrupamento de codigo. 
+*reuso de código.
+*mini programas dentro do programa maior .
+*toda linguagem oferece muitas opçoes .
+
+
+EXEMPLO :
+
+"usando uma função"
+alert('fala, Dev!')
+
+resultado:
+fala,Dev!
+
+
+
+"criando uma função"
+function sayHello(){
+    alert("Olá")
+}
+
+executa:
+sayHello() 
+
+resultado:
+Olá
+
+Toda vez que EXECUTAR o "sayHolle(Diga Olá)" vai aparecer "Olá" .
+
+
+2° EXEMPLO:
+
+function sayHello(name){
+    alert("Olá" + name)
+}
+
+executa:
+sayHello("Junior")
+
+resultado:
+Olá Junior 
+
+
+3° EXEMPLO:
+
+function soma(a, b){
+    return a + b
+}
+
+executa:
+soma(2, 2)
+assim o resultado aparecera em baixo .
+R:4
+
+
+dessa forma aparece o resultado .
+let resultado = soma(2, 2)
+
+executa:
+alert(resultado)
+
+resultado:
+4
+
+
+A palavra treservada FUNCION serve para fazer um monte de codigo dentro dela que fica tudo agrupado e pode usar qual quer momentoque quiser , é só executar ela .
+
+
+
+
+OBJETOS :
+
+Quase tudo no javaScript pode dizer que é objeto ; 
+*Objeto possuem ATRIBUTOS , que são as propriedades de um objeto .
+
+o objeto é ele fica entre as chaves ; entre as chaves vai ser colocado as propriedades e os valores , e pode colocar quantas propriedades quiser , e uma delas pode ser metodo .
+
+EXEMPLO:
+
+const celular = {
+   cor: "preto"
+   ligar: function(){
+    alert("ligando")
+     }
+}
+
+executa:
+celular.cor
+R:'preto'
+
+executar:
+celular.ligar()
+
+resultado:
+ligando
+
+
+esse foi um Exemplo de estar mandando a maquina Ligar o celular Preto.
+
+
+
+o IF faz uma pergunta ; se oque esta entre os parentes for verdadeio faz o codigo abaixo que é remover .
+
+if(html.classList.contains('ligth')) {
+        html.classList.remove('ligth')
+ 
+e o ELSE se não for veradeiro faz o outro codigo .
+
+
+else {
+        html.classList.add('ligth')
+
+
+
+
+Iniciando o GIT no vscode .
+
+
+Abra o vscode , la em cima nos 3 pontinhos na barra de tarefas vai ter o terminal , abriu o terminal la em baixo no + coloca em GIT .
+
+CODIGOS.
+"o comando abaixo ira iniciar nosso projeto "
+git init
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+	
+ 
